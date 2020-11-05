@@ -55,7 +55,7 @@ namespace NXTTest
             InitializeComponent( );
 
             // setup defaults
-            portBox.Text = "COM8";
+            portBox.Text = "COM6";
             motorCombo.SelectedIndex = 0;
             regulationModeCombo.SelectedIndex = 0;
             runStateCombo.SelectedIndex = 2;
@@ -308,6 +308,11 @@ namespace NXTTest
             {
                 System.Diagnostics.Debug.WriteLine( "Failed setting input mode" );
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
