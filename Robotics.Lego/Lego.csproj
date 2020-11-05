@@ -73,7 +73,6 @@
     <Compile Include="RCXBrick.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AForge.Robotics.Lego.snk" />
     <None Include="Eugenio.pfx" />
   </ItemGroup>
   <ItemGroup>
